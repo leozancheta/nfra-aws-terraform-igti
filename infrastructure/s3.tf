@@ -1,6 +1,6 @@
-resource "aws_s3_bucket" "datalake" {
+resource "aws_s3_bucket" "lz" {
   #Parametros de config dos recursos escolhidos
-  bucket = "datalake-lz-igti-producao"
+  bucket = "datalake-lz-igti-lz"
   acl    = "private"
 
   server_side_encryption_configuration {
