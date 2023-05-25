@@ -1,5 +1,5 @@
 variable "base_bucket_name" {
-  default = "datalake-lz-igti-lz"
+  default = "datalake-lz-igti-producao"
 }
 
 variable "environment" {
