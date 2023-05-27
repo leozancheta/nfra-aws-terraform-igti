@@ -1,4 +1,4 @@
-name: Test on PR
+name: Deploy AWS
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Test infra on PR
+    name: Deploy to datalake
     runs-on: ubuntu-latest
 
     steps:
