@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "datalake" {
+resource "aws_s3_bucket" "dl" {
   #Parametros de config dos recursos escolhidos
   bucket = "datalake-lz-igti-edc"
   acl    = "private"
